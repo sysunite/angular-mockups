@@ -7,7 +7,7 @@ angular.mockup = (img, callback) ->
     $stateProvider
     .state img,
       url: '/' + img
-      templateUrl: 'src/modules/img/img.ng.html'
+      templateUrl: 'src/img.ng.html'
       controller: ($controller, $scope, Region) ->
         
         # Call parent controller
