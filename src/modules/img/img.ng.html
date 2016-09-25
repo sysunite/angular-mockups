@@ -1,0 +1,8 @@
+<img id="image" ng-src="img/{{img}}.png" alt="auto" usemap="#map" ng-click="click($event)" />
+<map name="map" id="map">
+    <area ng-repeat="region in regions" 
+          shape="{{region.shape}}" 
+          coords="{{translate(region.width, region.height, region.x1, region.y1, region.x2, region.y2)}}" 
+          ng-click="toState(region.state)" 
+          title="{{region.state}}" />
+</map>

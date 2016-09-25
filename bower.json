@@ -1,0 +1,14 @@
+{
+  "name": "angular-mockups",
+  "main": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.5.7",
+    "angular-ui-router": "~0.2.15",
+    "jquery": "^3.1.1"
+  }
+}
