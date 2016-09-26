@@ -32,7 +32,7 @@ angular.module 'app'
     $timeout((->
       $scope.width  = $('#image').width()
       $scope.height = $('#image').height()
-    ), 10)
+    ), 200)
 
   # Listen for resize events
   angular.element($window).bind('resize', ->
